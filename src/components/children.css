@@ -1,11 +1,14 @@
 .avatar-children{
     width: 10vw;
-    background-color: cadetblue;
+    background-color:#eae3c8;
     border-radius: 50%;
 }
 
 .App-children{
     display: flex;
-
-    background-color:cornsilk
+    flex-direction: column;
+    background-color: #a1cae2;
+    padding: 2vh 7vh;
+    margin: 2vh;
+    border-radius: 25%;
 }

@@ -9,8 +9,8 @@ export default function PersonDetail(props){
             <img src={props.avatar} className="avatar-person" alt={props.first_name} />
             <div className="person-name">
                 <span>{props.first_name} {props.last_name}</span>
-                <span>{props.friends.length} <strong>Friends</strong></span>
-                <span>{props.children.length} <strong>Children</strong></span>  
+                <span><strong>{props.friends.length} </strong>Friends</span>
+                <span><strong>{props.children.length}</strong> Children</span>  
             </div>
             <div className="person-info">
                 <span><strong>Gender</strong>:{props.gender}</span>
@@ -23,11 +23,16 @@ export default function PersonDetail(props){
         </div>
     <div id="friends-container">
           <h3>{props.first_name}'s Friends</h3>
-        <Friends friends={props.friends}/>   
+       <div className="friends-info">
+         <Friends friends={props.friends}/>  
+       </div>
         </div>
        <div id="children-container">
          <h3>{props.first_name}'s Children</h3>
-        <Children children={props.children}/>  
+         <div className="children-info">
+           <Children children={props.children}/>
+         </div>
+          
        </div> 
       </div>
     )

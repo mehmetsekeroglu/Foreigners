@@ -1,12 +1,16 @@
 
+
 span{
-   
-    margin: 1vh;
-    
+    margin: 2vh;
 }
+
+
 #person-detail-container{
     display: flex; 
     align-items: center; 
+    justify-content: center;
+    background-color:#a09074;
+    padding: 1%;
 }
 .person-info{
     display: flex;
@@ -18,7 +22,27 @@ span{
 }
 
 .avatar-person{
-    background-color: darkslategrey;
+    background-color:#eae3c8;
     border-radius: 25%;
     width: 15vw;
+}
+
+.friends-info{
+    display:flex;
+    justify-content: space-around;
+    
+}
+#friends-container{
+    background-color: #c2b092;
+    padding: 2vh;
+
+}
+#children-container{
+    display: flex;
+    flex-direction: column;
+    background-color: #cfc5a5;
+}
+.children-info{
+    display: flex;
+    justify-content: space-around;
 }
