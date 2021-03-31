@@ -1,0 +1,11 @@
+.avatar-children{
+    width: 10vw;
+    background-color: cadetblue;
+    border-radius: 50%;
+}
+
+.App-children{
+    display: flex;
+
+    background-color:cornsilk
+}

@@ -1,0 +1,24 @@
+
+span{
+   
+    margin: 1vh;
+    
+}
+#person-detail-container{
+    display: flex; 
+    align-items: center; 
+}
+.person-info{
+    display: flex;
+    flex-direction: column;
+}
+.person-name{
+    display: flex;
+    flex-direction: column;
+}
+
+.avatar-person{
+    background-color: darkslategrey;
+    border-radius: 25%;
+    width: 15vw;
+}
