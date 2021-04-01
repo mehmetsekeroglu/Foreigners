@@ -1,7 +1,9 @@
 .avatar-children{
     width: 10vw;
-    background-color:#eae3c8;
+    background-color:#c2b092;
     border-radius: 50%;
+    box-shadow: 2px 2px 2px grey;
+    
 }
 
 .App-children{
@@ -11,4 +13,5 @@
     padding: 2vh 7vh;
     margin: 2vh;
     border-radius: 25%;
+    box-shadow: 2px 2px 2px grey;
 }

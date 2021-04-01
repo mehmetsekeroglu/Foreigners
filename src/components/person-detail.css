@@ -11,10 +11,12 @@ span{
     justify-content: center;
     background-color:#a09074;
     padding: 1%;
+    
 }
 .person-info{
     display: flex;
     flex-direction: column;
+  
 }
 .person-name{
     display: flex;
@@ -22,17 +24,20 @@ span{
 }
 
 .avatar-person{
-    background-color:#eae3c8;
+    background-color:#c2b092;
     border-radius: 25%;
     width: 15vw;
+    box-shadow: 2px 2px 2px grey;
 }
 
 .friends-info{
-    display:flex;
+    display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
     
 }
 #friends-container{
+    
     background-color: #c2b092;
     padding: 2vh;
 
