@@ -6,9 +6,9 @@ export default function PersonDetail(props){
     return (
       <div className="App-person">
         <div id="person-detail-container">
+        <h3> <span>{props.first_name} {props.last_name}</span></h3>
             <img src={props.avatar} className="avatar-person" alt={props.first_name} />
             <div className="person-name">
-                <span>{props.first_name} {props.last_name}</span>
                 <span><strong>{props.friends.length} </strong>Friends</span>
                 <span><strong>{props.children.length}</strong> Children</span>  
             </div>
