@@ -4,6 +4,7 @@ import foreigners from './service/foreigners.json'
 import Header from './components/Header'
 import PersonContainer from './components/PersonContainer'
 
+
 function App() {
   return (
     <div className="App">
@@ -12,5 +13,7 @@ function App() {
     </div>
   );
 }
+
+
 
 export default App;

@@ -10,8 +10,7 @@ display: flex;
 background-color:#acb7bd;
 padding: 4vh;
 margin: 1%;
-border-radius: 25%;
-width: 20%;
+border-radius: 25px;
 box-shadow: 2px 2px 2px grey;
 }
 
@@ -24,4 +23,8 @@ box-shadow: 2px 2px 2px grey;
 .friends-part{
     display: flex;
     flex-direction: column;
+    list-style-type: none;
+}
+.flex-class{
+    display: flex;
 }

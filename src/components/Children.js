@@ -1,3 +1,5 @@
+import React from 'react';
+//import { render, screen } from '@testing-library/react';
 import './children.css';
 export default function Children(props){
     return (
@@ -12,4 +14,8 @@ export default function Children(props){
     )
 }
 
+// test('div-class', () => {
+//     render(<Children />);
+//   expect.toHaveClass('App-children');
+//   });
 
